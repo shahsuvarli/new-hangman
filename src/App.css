@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  display: grid;
+}
+main {
+  width: 350px;
+  border: 1px solid black;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.image-container {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.keyboard {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+button {
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  border-radius: 5px;
+  margin: 1px;
+  border: 1px solid black;
+  width: 50px;
+  height: 45px;
+}
+
+.placeholder {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+span {
+  font-size: 30px;
+}
+.selected-box {
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+  border-radius: 5px;
+  margin: 1px;
+  border: 1px solid black;
+  width: 50px;
+  height: 45px;
+}
+img{
+  width: 200px;
+}
